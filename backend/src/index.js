@@ -62,6 +62,14 @@ cron.schedule("0 * * * *", () => {
 		});
 	}
 });
+cron.schedule("*/1 * * * *", async () => {
+  console.log("Running scheduled Clerk sync...");
+  try {
+    await syncClerkUsers();
+  } catch (err) {
+    console.error("Error during scheduled sync:", err);
+  }
+});
 
 app.use("/api/users", userRoutes);
 app.use("/api/admin", adminRoutes);
