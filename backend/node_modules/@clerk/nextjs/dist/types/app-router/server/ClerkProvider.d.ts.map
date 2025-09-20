@@ -1,0 +1,1 @@
+{"version":3,"file":"ClerkProvider.d.ts","sourceRoot":"","sources":["../../../../src/app-router/server/ClerkProvider.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAgB,OAAO,EAAE,MAAM,cAAc,CAAC;AAG1D,OAAO,KAAK,MAAM,OAAO,CAAC;AAI1B,OAAO,KAAK,EAAE,sBAAsB,EAAE,MAAM,aAAa,CAAC;AAuB1D,wBAAsB,aAAa,CACjC,KAAK,EAAE,OAAO,CAAC,sBAAsB,EAAE,8CAA8C,CAAC,8BAiFvF"}

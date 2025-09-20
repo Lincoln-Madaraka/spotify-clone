@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/internal.ts"],"sourcesContent":["/**\n * These need to be explicitly listed. Do not use an * here.\n * If you do, app router will break.\n */\nexport { MultisessionAppSupport } from './client-boundary/controlComponents';\n"],"mappings":";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAIA,+BAAuC;","names":[]}

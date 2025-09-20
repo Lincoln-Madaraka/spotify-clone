@@ -1,0 +1,1 @@
+{"version":3,"file":"serverRedirectWithAuth.d.ts","sourceRoot":"","sources":["../../../src/utils/serverRedirectWithAuth.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,yBAAyB,CAAC;AAM5D;;GAEG;AACH,eAAO,MAAM,sBAAsB,GAAI,cAAc,YAAY,EAAE,KAAK,QAAQ,EAAE,MAAM;IAAE,SAAS,EAAE,MAAM,CAAA;CAAE,aAiB5G,CAAC"}

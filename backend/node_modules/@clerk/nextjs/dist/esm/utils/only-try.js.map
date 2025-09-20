@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/utils/only-try.ts"],"sourcesContent":["/**\n * Discards errors thrown by attempted code\n */\nconst onlyTry = (cb: () => unknown) => {\n  try {\n    cb();\n  } catch {\n    // ignore\n  }\n};\n\nexport { onlyTry };\n"],"mappings":";AAGA,MAAM,UAAU,CAAC,OAAsB;AACrC,MAAI;AACF,OAAG;AAAA,EACL,QAAQ;AAAA,EAER;AACF;","names":[]}
