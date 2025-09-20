@@ -110,27 +110,7 @@ const songs = [
 		audioUrl: "/songs/15.mp3",
 		duration: 36, // 0:36
 	},
-	{
-		title: "Crystal Rain",
-		artist: "Echo Valley",
-		imageUrl: "/cover-images/16.jpg",
-		audioUrl: "/songs/16.mp3",
-		duration: 39, // 0:39
-	},
-	{
-		title: "Neon Tokyo",
-		artist: "Future Pulse",
-		imageUrl: "/cover-images/17.jpg",
-		audioUrl: "/songs/17.mp3",
-		duration: 39, // 0:39
-	},
-	{
-		title: "Midnight Blues",
-		artist: "Jazz Cats",
-		imageUrl: "/cover-images/18.jpg",
-		audioUrl: "/songs/18.mp3",
-		duration: 29, // 0:29
-	},
+	
 ];
 
 const seedSongs = async () => {
