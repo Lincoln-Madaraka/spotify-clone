@@ -54,6 +54,5 @@ export const syncClerkUsers = async () => {
 if (import.meta.url === `file://${process.argv[1]}`) {
   syncClerkUsers().catch((err) => {
     console.error("Error syncing users:", err);
-    process.exit(1);
   });
 }
