@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/components.client.ts"],"sourcesContent":["export { ClerkProvider } from './client-boundary/ClerkProvider';\nexport { SignedIn, SignedOut, Protect } from './client-boundary/controlComponents';\n"],"mappings":";AAAA,SAAS,qBAAqB;AAC9B,SAAS,UAAU,WAAW,eAAe;","names":[]}

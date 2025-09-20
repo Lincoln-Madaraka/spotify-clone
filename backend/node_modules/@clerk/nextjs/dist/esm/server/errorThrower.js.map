@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../src/server/errorThrower.ts"],"sourcesContent":["import { buildErrorThrower } from '@clerk/shared/error';\n\nexport const errorThrower = buildErrorThrower({ packageName: '@clerk/nextjs' });\n"],"mappings":";AAAA,SAAS,yBAAyB;AAE3B,MAAM,eAAe,kBAAkB,EAAE,aAAa,gBAAgB,CAAC;","names":[]}
