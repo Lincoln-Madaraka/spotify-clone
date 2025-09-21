@@ -7,7 +7,7 @@ import cors from "cors";
 import fs from "fs";
 import { createServer } from "http";
 import cron from "node-cron";
-import { syncClerkUsers } from "./syncClerkUsers.js";
+
 import { initializeSocket } from "./lib/socket.js";
 
 import { connectDB } from "./lib/db.js";
@@ -61,14 +61,6 @@ cron.schedule("0 * * * *", () => {
 			}
 		});
 	}
-});
-cron.schedule("*/1 * * * *", async () => {
-  console.log("Running scheduled Clerk sync...");
-  try {
-    await syncClerkUsers();
-  } catch (err) {
-    console.error("Error during scheduled sync:", err);
-  }
 });
 
 app.use("/api/users", userRoutes);
