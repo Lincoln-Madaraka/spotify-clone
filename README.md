@@ -1,11 +1,11 @@
 <h1 align="center">Spotify Clone</h1>
 
-[Site Url](https://cloned-spotify-music.vercel.app/)
+**[Site Url](https://cloned-spotify-music.vercel.app/)**
 
 >>The app is deployed with frontend on Vercel and backend on Render.
 **Currently, there is an issue where refreshing certain routes sometimes results in a deployment not found error. This happens because:**
-Vercel (frontend) and Render (backend) are hosted separately.Render free tier spins down apps when idle, so the backend can take a while to wake up.Route handling between the two platforms isn’t always perfectly in sync.
-I’d appreciate any guidance or contributions to help make the deployment more stable. Thankas.
+>>Vercel (frontend) and Render (backend) are hosted separately.Render free tier spins down apps when idle, so the backend can take a while to wake up.Route handling between the two platforms isn’t always perfectly in sync.
+I’d appreciate any guidance or contributions to help make the deployment more stable. Thanks.
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
