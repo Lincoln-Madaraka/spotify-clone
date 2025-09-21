@@ -46,8 +46,9 @@ const MainLayout = () => {
 					</>
 				)}
 			</ResizablePanelGroup>
-
-			<PlaybackControls />
+			<div className={isMobile ? "fixed bottom-0 w-full z-50" : ""}>
+				<PlaybackControls />
+			</div>
 		</div>
 	);
 };
