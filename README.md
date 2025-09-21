@@ -70,5 +70,9 @@ npm run dev
 4. Push to your branch (git push origin feature-name)
 5. Open a Pull Request
 
+## 🔗 Links
+- [Check out more on my website](https://hello-lincoln-prime.vercel.app/)  
+- [Contact me](mailto:madarakalincoln48@gmail.com)
+
 ### License
 All rights reserved © 2025
